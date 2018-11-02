@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<!-- home 페이지 -->
+	<bean type="controller" name="/home" class="com.graingreat.home.controller.HomeController" />
+	
+	<!-- board 페이지 -->
+	<bean type="controller" name="/board" class="com.graingreat.board.controller.BoardController" />
+	
+	<!-- contact 페이지 -->
+	<bean type="controller" name="/contact" class="com.graingreat.contact.controller.ContactController" />
+	
+	<!-- about 페이지 -->
+	<bean type="controller" name="/about" class="com.graingreat.about.controller.AboutController" />
+	
+	<!-- 상품관련 -->
+	
+	<!-- 상품리스트 -->
+	<bean type="controller" name="/product" class="com.graingreat.product.controller.ProductController" />
+	<!-- 상품 상세 관리 -->
+	<bean type="controller" name="/product/details" class="com.graingreat.product.controller.ProductDetailsController" />
+	
+	<!-- 고객관련 -->
+	<bean type="controller" name="/customer/login" class="com.graingreat.customer.controller.CustomerLoginController" />
+	<bean type="controller" name="/customer/mypage" class="com.graingreat.customer.controller.CustomerMyPageController" />
+	<bean type="controller" name="/customer/regist" class="com.graingreat.customer.controller.CustomerRegistController" />
+	<bean type="controller" name="/customer/findme" class="com.graingreat.customer.controller.CustomerFindmeController" />
+</beans>
